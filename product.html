@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>3k elo</title>
+	<link rel="stylesheet" href="style\style.css">
+</head>
+<body class="body_product_ready_page">
+	<header class="header">
+		<a href="index.html" class="header__logo">
+			<img src="img/icons/logoGS.svg" alt="">
+		</a>
+		<nav class="header__nav">
+			<a href="">
+				<img class="img_vk" src="img/icons/vk.svg" alt="">
+			</a>
+			<a href="">
+				<img src="img/icons/ds.svg" alt="">
+			</a>
+			<a href="">
+				<img src="img/icons/steam.svg" alt="">
+			</a>
+		</nav>
+	</header>
+
+    <div class="purchaseBlock absolute-zero flex-center" id="purchase">
+        <div class="purchaseBlock__inner">
+            <div class="purchaseBlock__inner__top">
+                <h2 class="txt">Оплата</h2>
+                <div class="purchaseBlock__inner__top__closeBlock" onclick="open_purchase(false)">
+                    <img src="img/icons/close16.png" alt="">
+                </div>
+            </div>
+            <div class="purchaseBlock__inner__form">
+                <form action="">
+                    <div class="form__part">
+                        <label class="txt" for="email">Ваш Email</label>
+                        <input class="txt" type="email" name="email" id="">
+                    </div>
+                    <div class="form__part">
+                        <label class="txt">Выбор сервиса оплаты</label>
+                        <div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="form__part">
+                        <button class="txt" type="button">Оплатить 2105 ₽</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+	<main>
+		<!-- <section class="information" id="information">
+            
+            <div class="information__buyBlock">
+                <div class="information__buyBlock__information">
+                    <img src="img/icons/info.png" alt="">
+                    <div class="information__buyBlock__information__text">
+                        <p class="txt">Вы получаете аккаунт <span>мнгновенно</span></p>
+                        <p class="txt">Логин и пароль от <span>Steam, Faciet, Почта</span></p>
+                        <p class="txt">После получения <span>смените пароли</span></p>
+                    </div>
+                </div>
+                <div class="information__buyBlock__priceblock">
+                    <div class="information__buyBlock__priceblock__price txt">2105 ₽</div>
+                    <button class="information__buyBlock__priceblock__button txt" onclick="open_purchase(true)">Купить</button>
+                </div>
+            </div>
+		</section> -->
+        <section class="productCardInfo" id="information">
+            <div class="productCardInfo__information">
+                <div class="productCardInfo__information__top">
+                    <div class="productCardInfo__information__top__this">
+                        <div class="productCardInfo__information__top__this__lvlBlock productCardInfo__information__top__this__lvlBlock_9 flex-center">
+                            <div class="productCardInfo__information__top__this__lvlBlock__num productCardInfo__information__top__this__lvlBlock__num_9 flex-center txt">9</div>
+                            <div class="productCardInfo__information__top__this__lvlBlock__elo txt">1965 Elo</div>
+                        </div>
+                        <div class="productCardInfo__information__top__this__points">
+                            <h3 class="txt">Готовый аккаунт</h3>
+                            <ul class="txt">
+                                <li class="_none">Зарегистрирован 12.03.2024</li>
+                                <li class="_true">Верифицирован</li>
+                                <li class="_true">Родная почта</li>
+                                <li class="_false">FACIET Plus</li>
+                                <li class="_false">FACIET Premium</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="productCardInfo__information__top__about">
+                        <p class="txt">After purchasing this product you will receive the following: - 
+                            Faceit/Steam login and password - Original e-mail address and password ---WARNING!
+                            We do not buy or resell other people's accounts. 
+                            All accounts are made directly by Eloboss team. This way we guarantee a safe future for your steam account - you do not have to worry about the </p>
+                    </div>
+                </div>
+                <div class="productCardInfo__information__rankRange">
+                    <div class="productCardInfo__information__rankRange__points">
+                        <div class="productCardInfo__information__rankRange__points__pointLvl"><img src="img/lvls/1.png" alt=""></div>
+                        <div class="productCardInfo__information__rankRange__points__pointLvl"><img src="img/lvls/2.png" alt=""></div>
+                        <div class="productCardInfo__information__rankRange__points__pointLvl"><img src="img/lvls/3.png" alt=""></div>
+                        <div class="productCardInfo__information__rankRange__points__pointLvl"><img src="img/lvls/4.png" alt=""></div>
+                        <div class="productCardInfo__information__rankRange__points__pointLvl"><img src="img/lvls/5.png" alt=""></div>
+                        <div class="productCardInfo__information__rankRange__points__pointLvl"><img src="img/lvls/6.png" alt=""></div>
+                        <div class="productCardInfo__information__rankRange__points__pointLvl"><img src="img/lvls/7.png" alt=""></div>
+                        <div class="productCardInfo__information__rankRange__points__pointLvl"><img src="img/lvls/8.png" alt=""></div>
+                        <div class="productCardInfo__information__rankRange__points__pointLvl productCardInfo__information__rankRange__points__pointLvl_active"><img src="img/lvls/9.png" alt=""></div>
+                        <div class="productCardInfo__information__rankRange__points__pointLvl"><img src="img/lvls/10.png" alt=""></div>
+                    </div>
+                    <div class="productCardInfo__information__rankRange__range">
+                        <div class="productCardInfo__information__rankRange__range__progress productCardInfo__information__rankRange__range__progress_ready"></div>
+                        <div class="productCardInfo__information__rankRange__range__thumb"></div>
+                        <div class="productCardInfo__information__rankRange__range__value txt">1965</div>
+                    </div>
+                </div>
+                <div class="productCardInfo__information__stats">
+                    <div class="productCardInfo__information__stats__point">
+                        <div class="productCardInfo__information__stats__point__type txt">Matches</div>
+                        <div class="productCardInfo__information__stats__point__value txt">35</div>
+                    </div>
+                    <div class="productCardInfo__information__stats__point">
+                        <div class="productCardInfo__information__stats__point__type txt">Win rate</div>
+                        <div class="productCardInfo__information__stats__point__value txt">90%</div>
+                    </div>
+                    <div class="productCardInfo__information__stats__point">
+                        <div class="productCardInfo__information__stats__point__type txt">AVG K/D</div>
+                        <div class="productCardInfo__information__stats__point__value txt">1.63</div>
+                    </div>
+                    <div class="productCardInfo__information__stats__point">
+                        <div class="productCardInfo__information__stats__point__type txt">AVG K/R</div>
+                        <div class="productCardInfo__information__stats__point__value txt">0.95</div>
+                    </div>
+                    <div class="productCardInfo__information__stats__point">
+                        <div class="productCardInfo__information__stats__point__type txt">AVG Kills</div>
+                        <div class="productCardInfo__information__stats__point__value txt">21</div>
+                    </div>
+                    <div class="productCardInfo__information__stats__point">
+                        <div class="productCardInfo__information__stats__point__type txt">AVG Headshots</div>
+                        <div class="productCardInfo__information__stats__point__value txt">54%</div>
+                    </div>
+                    <div class="productCardInfo__information__stats__point">
+                        <div class="productCardInfo__information__stats__point__type txt">Longest Win Streak</div>
+                        <div class="productCardInfo__information__stats__point__value txt">7</div>
+                    </div>
+                    <div class="productCardInfo__information__stats__point">
+                        <div class="productCardInfo__information__stats__point__type txt">Recent Results</div>
+                        <div class="productCardInfo__information__stats__point__value productCardInfo__information__stats__point__value_recentResults txt">
+                            <div class="w txt">W</div>
+                            <div class="l txt">L</div>
+                            <div class="w txt">W</div>
+                            <div class="w txt">W</div>
+                            <div class="w txt">W</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="information__buyBlock">
+                    <div class="information__buyBlock__information">
+                        <img src="img/icons/info.png" alt="">
+                        <div class="information__buyBlock__information__text">
+                            <p class="txt">Вы получаете аккаунт <span>мнгновенно</span></p>
+                            <p class="txt">Логин и пароль от <span>Steam, Faciet, Почта</span></p>
+                            <p class="txt">После получения <span>смените пароли</span></p>
+                        </div>
+                    </div>
+                    <div class="information__buyBlock__priceblock">
+                        <div class="information__buyBlock__priceblock__price txt">2105 ₽</div>
+                        <button class="information__buyBlock__priceblock__button txt" onclick="open_purchase(true)">Купить</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+	</main>
+
+    <footer class="footer">
+		<div class="footer__top">
+			<img src="img/icons/logoGS.svg" alt="">
+			<nav>
+				<a href="" class="txt">ПОМОЩЬ</a>
+				<a href="" class="txt">ПОЛЕЗНОЕ</a>
+				<a href="" class="txt">ПРАВИЛА</a>
+				<a href="" class="txt">КОНФИДЕНЦИАЛЬНОСТЬ</a>
+			</nav>
+			<div class="footer__top__socialLink">
+				<a href="">
+					<img class="img_vk" src="img/icons/vk.svg" alt="">
+				</a>
+				<a href="">
+					<img src="img/icons/ds.svg" alt="">
+				</a>
+				<a href="">
+					<img src="img/icons/steam.svg" alt="">
+				</a>
+			</div>
+		</div>
+		<div class="footer__bottom">
+			<div class="footer__bottom__copyright txt">Copyright © 2024 ********* - All rights reserved</div>
+			<div class="footer__bottom__paymentMethods">
+				<img src="img/pic/paymentMethods.png" alt="">
+			</div>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="scripts/script.js"></script>
+</body>
+</html>
